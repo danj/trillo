@@ -1,0 +1,63 @@
+.overview {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__heading {
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5rem 3rem;
+  }
+
+  &__stars {
+    display: flex;
+    flex-direction: row;
+    color: $color-primary;
+    margin-right: auto;
+  }
+
+  &__location {
+    font-size: 1.2rem;
+    display: flex;
+    vertical-align: center;
+
+    .overview__icon {
+      margin-right: .5rem;
+    }
+  }
+
+  &__rating {
+    background-color: $color-primary;
+    color: white;
+    margin-left: 3rem;
+    align-self: stretch;
+    padding: 0 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &-average {
+      font-size: 2.25rem;
+      font-weight: 300;
+    }
+
+    &-count {
+      font-size: .8rem;
+      font-weight: 300;
+    }
+  }
+
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+
+    fill: $color-primary;
+  }
+
+
+}
