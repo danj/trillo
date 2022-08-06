@@ -26,6 +26,21 @@
       flex: 1;
       background-color: white;
     }
+
+    .cta {
+      padding: 3.5rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 2.5rem;
+        text-transform: uppercase;
+      }
+    }
   }
 }
 
